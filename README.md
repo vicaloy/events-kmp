@@ -3,3 +3,7 @@
 ./gradlew :shared:generateServiceApolloSources
 
 ./gradlew publishAndReleaseToMavenCentral --no-configuration-cache
+
+
+./gradlew :shared:assembleSharedReleaseXCFramework
+swift package reset && swift package show-dependencies --format json
