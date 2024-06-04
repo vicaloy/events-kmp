@@ -1,4 +1,5 @@
 import com.vanniktech.maven.publish.SonatypeHost
+import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
@@ -64,16 +65,24 @@ kotlin {
         }
         publishLibraryVariants("release", "debug")
     }
+    val xcframeworkName = "shared"
+    val xcf = XCFramework(xcframeworkName)
+
     listOf(
         iosX64(),
         iosArm64(),
-        iosSimulatorArm64()
+        iosSimulatorArm64(),
     ).forEach {
         it.binaries.framework {
-            baseName = "shared"
+            baseName = xcframeworkName
+
+            // Specify CFBundleIdentifier to uniquely identify the framework
+            binaryOption("bundleId", "org.example.${xcframeworkName}")
+            xcf.add(this)
             isStatic = true
         }
     }
+
     js {
         browser()
     }

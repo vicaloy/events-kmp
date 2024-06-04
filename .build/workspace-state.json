@@ -1,0 +1,24 @@
+{
+  "object" : {
+    "artifacts" : [
+      {
+        "packageRef" : {
+          "identity" : "events-kmp",
+          "kind" : "root",
+          "location" : "/Users/victoriaaloy/Projects/events-kmp",
+          "name" : "events-kmp"
+        },
+        "path" : "/Users/victoriaaloy/Projects/events-kmp/.build/artifacts/events-kmp/Shared.xcframework",
+        "source" : {
+          "checksum" : "23b6bfc7e511602b32d02ebbc23e31d2d94ba6f3f78953b7e5d621381b99f739",
+          "type" : "local"
+        },
+        "targetName" : "Shared"
+      }
+    ],
+    "dependencies" : [
+
+    ]
+  },
+  "version" : 5
+}
