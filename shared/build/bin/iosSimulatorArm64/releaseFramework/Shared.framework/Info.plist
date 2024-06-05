@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
     <key>CFBundleExecutable</key>
-    <string>Shared</string>
+    <string>shared</string>
     <key>CFBundleIdentifier</key>
-    <string>org.example.Shared</string>
+    <string>org.example.shared</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>Shared</string>
+    <string>shared</string>
     <key>CFBundlePackageType</key>
     <string>FMWK</string>
     <key>CFBundleShortVersionString</key>
