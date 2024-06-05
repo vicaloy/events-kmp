@@ -8,12 +8,12 @@
           "location" : "/Users/victoriaaloy/Projects/events-kmp",
           "name" : "events-kmp"
         },
-        "path" : "/Users/victoriaaloy/Projects/events-kmp/.build/artifacts/events-kmp/Shared.xcframework",
+        "path" : "/Users/victoriaaloy/Projects/events-kmp/.build/artifacts/events-kmp/shared.xcframework",
         "source" : {
-          "checksum" : "23b6bfc7e511602b32d02ebbc23e31d2d94ba6f3f78953b7e5d621381b99f739",
+          "checksum" : "1a8d91b925e19252424940d8277df5651f8e6e163029b7a87814aeacef2d0fa8",
           "type" : "local"
         },
-        "targetName" : "Shared"
+        "targetName" : "shared"
       }
     ],
     "dependencies" : [
