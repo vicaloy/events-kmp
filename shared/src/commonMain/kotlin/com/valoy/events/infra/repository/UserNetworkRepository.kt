@@ -15,6 +15,7 @@ import com.apollographql.apollo3.interceptor.ApolloInterceptor
 import com.apollographql.apollo3.interceptor.ApolloInterceptorChain
 import com.valoy.events.GetAllUsersQuery
 import com.valoy.events.di.CommonDi
+import com.valoy.events.di.KotlinNativeFlowWrapper
 import com.valoy.events.domain.repository.UserRepository
 import com.valoy.events.domain.model.User
 import kotlinx.coroutines.flow.Flow
@@ -30,11 +31,13 @@ class UserNetworkRepository(private val apolloClient: ApolloClient = CommonDi.ap
         TODO("Not yet implemented")
     }
 
-    override suspend fun getAll(): Flow<List<User>> {
+    override fun getAll(): Flow<List<User>> {
         return apolloClient.query(GetAllUsersQuery())
             .watch().filter { it.exception == null}
             .map { response -> response.dataOrThrow().getAllUsers.map { users -> users.toUser() } }
     }
+
+    override fun iosGetAll() = KotlinNativeFlowWrapper(getAll())
 
     override fun find(id: Int): User? {
         TODO("Not yet implemented")

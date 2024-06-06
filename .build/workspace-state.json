@@ -10,7 +10,7 @@
         },
         "path" : "/Users/victoriaaloy/Projects/events-kmp/.build/artifacts/events-kmp/shared.xcframework",
         "source" : {
-          "checksum" : "cca8fc079140d04f9398acec28a881e3b0c5257bb76dee01f0bafc8f6257e056",
+          "checksum" : "2431d756964b5a657c298ca57d3f7c60c1f62c8578c906a87e1350b1f2ea0df8",
           "type" : "local"
         },
         "targetName" : "shared"
