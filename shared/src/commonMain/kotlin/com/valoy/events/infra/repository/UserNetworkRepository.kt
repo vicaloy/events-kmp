@@ -25,22 +25,6 @@ import kotlinx.coroutines.flow.onEach
 class UserNetworkRepository(private val apolloClient: ApolloClient = CommonDi.apolloClient) :
     UserRepository {
 
-    private val refetchPolicyInterceptor = object : ApolloInterceptor {
-        var hasSeenValidResponse: Boolean = false
-        override fun <D : Operation.Data> intercept(request: ApolloRequest<D>, chain: ApolloInterceptorChain): Flow<ApolloResponse<D>> {
-            return if (!hasSeenValidResponse) {
-                CacheOnlyInterceptor.intercept(request, chain).onEach {
-                    if (it.data != null) {
-                        // We have valid data, we can now use the network
-                        hasSeenValidResponse = true
-                    }
-                }
-            } else {
-                // If for some reason we have a cache miss, get fresh data from the network
-                CacheFirstInterceptor.intercept(request, chain)
-            }
-        }
-    }
 
     override suspend fun add(user: User): Boolean {
         TODO("Not yet implemented")

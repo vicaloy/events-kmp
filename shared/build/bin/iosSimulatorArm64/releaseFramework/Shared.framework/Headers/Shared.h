@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class SharedApollo_apiCompiledField, SharedApollo_apiCustomScalarAdapters, SharedGetAllUsersQueryCompanion, SharedGetAllUsersQueryData, SharedQueryBuilder, SharedGetAllUsersQueryGetAllUser, SharedGetAllUsersQuery_ResponseAdapter, SharedGetAllUsersQuery_ResponseAdapterData, SharedGetAllUsersQuery_ResponseAdapterGetAllUser, SharedCommonDi, SharedApollo_runtimeApolloClient, SharedUserNetworkRepository, SharedPlace, SharedUser, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedEventType, SharedKotlinArray<T>, SharedEvent, SharedUserFragment, SharedUserFragmentImpl_ResponseAdapter, SharedUserFragmentImpl_ResponseAdapterUserFragment, SharedUserFragmentSelections, SharedApollo_apiCompiledSelection, Shared__Schema, SharedApollo_apiObjectType, SharedApollo_apiCompiledNamedType, SharedGetAllUsersQuerySelections, SharedGraphQLBooleanCompanion, SharedApollo_apiCustomScalarType, SharedGraphQLFloatCompanion, SharedGraphQLIDCompanion, SharedGraphQLIntCompanion, SharedGraphQLStringCompanion, SharedQueryCompanion, SharedApollo_apiObjectBuilder<__covariant T>, SharedUserDTOCompanion, SharedUserDTOBuilder, SharedApollo_normalized_cache_apiNormalizedCacheFactory, SharedKotlinThrowable, SharedKotlinException, SharedApollo_apiOptional<__covariant V>, SharedApollo_apiExecutableVariables, SharedApollo_apiCompiledArgument, SharedApollo_apiCompiledFieldBuilder, SharedApollo_apiCompiledCondition, SharedApollo_apiCompiledType, SharedApollo_apiJsonNumber, SharedApollo_apiCustomScalarAdaptersKey, SharedApollo_apiError, SharedApollo_apiCustomScalarAdaptersBuilder, SharedApollo_apiDeferredFragmentIdentifier, SharedApollo_apiFakeResolverContext, SharedKotlinNothing, SharedApollo_apiJsonReaderToken, SharedApollo_apiHttpHeader, SharedApollo_apiHttpMethod, SharedApollo_runtimeApolloClientCompanion, SharedApollo_apiApolloRequest<D>, SharedApollo_runtimeApolloCall<D>, SharedApollo_runtimeApolloClientBuilder, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedApollo_apiObjectTypeBuilder, SharedApollo_apiInterfaceType, SharedApollo_normalized_cache_apiNormalizedCache, SharedApollo_apiOptionalCompanion, SharedApollo_apiCompiledArgumentDefinition, SharedApollo_apiErrorLocation, SharedApollo_apiApolloRequestBuilder<D>, SharedUuidUuid, SharedApollo_apiApolloResponse<D>, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedApollo_apiInterfaceTypeBuilder, SharedApollo_normalized_cache_apiCacheHeaders, SharedApollo_normalized_cache_apiNormalizedCacheCompanion, SharedApollo_normalized_cache_apiCacheKey, SharedApollo_apiOptionalAbsent, SharedApollo_apiOptionalPresent<V>, SharedApollo_apiCompiledArgumentDefinitionBuilder, SharedKotlinByteArray, SharedOkioByteString, SharedOkioBuffer, SharedOkioTimeout, SharedApollo_apiApolloResponseBuilder<D>, SharedApollo_apiApolloException, SharedApollo_apiHttpRequest, SharedApollo_apiHttpResponse, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedApollo_runtimeWsProtocol, SharedApollo_normalized_cache_apiCacheHeadersCompanion, SharedApollo_normalized_cache_apiCacheHeadersBuilder, SharedKotlinRegex, SharedApollo_normalized_cache_apiCacheKeyCompanion, SharedKotlinByteIterator, SharedOkioByteStringCompanion, SharedOkioBufferUnsafeCursor, SharedOkioTimeoutCompanion, SharedApollo_apiHttpRequestBuilder, SharedApollo_apiHttpResponseBuilder, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedApollo_runtimeWsFrameType, SharedKotlinRegexOption, SharedKotlinRegexCompanion, NSData, SharedKotlinMatchResultDestructured, SharedKotlinIntRange, SharedKotlinMatchGroup, SharedKotlinIntProgressionCompanion, SharedKotlinIntIterator, SharedKotlinIntProgression, SharedKotlinIntRangeCompanion;
+@class SharedApollo_apiCompiledField, SharedApollo_apiCustomScalarAdapters, SharedGetAllUsersQueryCompanion, SharedGetAllUsersQueryData, SharedQueryBuilder, SharedGetAllUsersQueryGetAllUser, SharedGetAllUsersQuery_ResponseAdapter, SharedGetAllUsersQuery_ResponseAdapterData, SharedGetAllUsersQuery_ResponseAdapterGetAllUser, SharedCommonDi, SharedApollo_runtimeApolloClient, SharedUserNetworkRepository, SharedKotlinThrowable, SharedPlace, SharedUser, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedEventType, SharedKotlinArray<T>, SharedEvent, SharedUserFragment, SharedUserFragmentImpl_ResponseAdapter, SharedUserFragmentImpl_ResponseAdapterUserFragment, SharedUserFragmentSelections, SharedApollo_apiCompiledSelection, Shared__Schema, SharedApollo_apiObjectType, SharedApollo_apiCompiledNamedType, SharedGetAllUsersQuerySelections, SharedGraphQLBooleanCompanion, SharedApollo_apiCustomScalarType, SharedGraphQLFloatCompanion, SharedGraphQLIDCompanion, SharedGraphQLIntCompanion, SharedGraphQLStringCompanion, SharedQueryCompanion, SharedApollo_apiObjectBuilder<__covariant T>, SharedUserDTOCompanion, SharedUserDTOBuilder, SharedApollo_normalized_cache_apiNormalizedCacheFactory, SharedKotlinException, SharedApollo_apiOptional<__covariant V>, SharedApollo_apiExecutableVariables, SharedApollo_apiCompiledArgument, SharedApollo_apiCompiledFieldBuilder, SharedApollo_apiCompiledCondition, SharedApollo_apiCompiledType, SharedApollo_apiJsonNumber, SharedApollo_apiCustomScalarAdaptersKey, SharedApollo_apiError, SharedApollo_apiCustomScalarAdaptersBuilder, SharedApollo_apiDeferredFragmentIdentifier, SharedApollo_apiFakeResolverContext, SharedKotlinNothing, SharedApollo_apiJsonReaderToken, SharedApollo_apiHttpHeader, SharedApollo_apiHttpMethod, SharedApollo_runtimeApolloClientCompanion, SharedApollo_apiApolloRequest<D>, SharedApollo_runtimeApolloCall<D>, SharedApollo_runtimeApolloClientBuilder, SharedKotlinCancellationException, SharedKotlinRuntimeException, SharedKotlinIllegalStateException, SharedApollo_apiObjectTypeBuilder, SharedApollo_apiInterfaceType, SharedApollo_normalized_cache_apiNormalizedCache, SharedApollo_apiOptionalCompanion, SharedApollo_apiCompiledArgumentDefinition, SharedApollo_apiErrorLocation, SharedApollo_apiApolloRequestBuilder<D>, SharedUuidUuid, SharedApollo_apiApolloResponse<D>, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKotlinUnit, SharedApollo_apiInterfaceTypeBuilder, SharedApollo_normalized_cache_apiCacheHeaders, SharedApollo_normalized_cache_apiNormalizedCacheCompanion, SharedApollo_normalized_cache_apiCacheKey, SharedApollo_apiOptionalAbsent, SharedApollo_apiOptionalPresent<V>, SharedApollo_apiCompiledArgumentDefinitionBuilder, SharedKotlinByteArray, SharedOkioByteString, SharedOkioBuffer, SharedOkioTimeout, SharedApollo_apiApolloResponseBuilder<D>, SharedApollo_apiApolloException, SharedApollo_apiHttpRequest, SharedApollo_apiHttpResponse, SharedKotlinAbstractCoroutineContextElement, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedApollo_runtimeWsProtocol, SharedApollo_normalized_cache_apiCacheHeadersCompanion, SharedApollo_normalized_cache_apiCacheHeadersBuilder, SharedKotlinRegex, SharedApollo_normalized_cache_apiCacheKeyCompanion, SharedKotlinByteIterator, SharedOkioByteStringCompanion, SharedOkioBufferUnsafeCursor, SharedOkioTimeoutCompanion, SharedApollo_apiHttpRequestBuilder, SharedApollo_apiHttpResponseBuilder, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedApollo_runtimeWsFrameType, SharedKotlinRegexOption, SharedKotlinRegexCompanion, NSData, SharedKotlinMatchResultDestructured, SharedKotlinIntRange, SharedKotlinMatchGroup, SharedKotlinIntProgressionCompanion, SharedKotlinIntIterator, SharedKotlinIntProgression, SharedKotlinIntRangeCompanion;
 
-@protocol SharedApollo_apiAdapter, SharedApollo_apiJsonWriter, SharedApollo_apiExecutable, SharedApollo_apiOperation, SharedApollo_apiQuery, SharedApollo_apiFakeResolver, SharedApollo_apiExecutableData, SharedApollo_apiOperationData, SharedApollo_apiQueryData, SharedApollo_apiJsonReader, SharedKotlinComparable, SharedKotlinx_coroutines_coreFlow, SharedApollo_apiFragmentData, SharedUserRepository, SharedApollo_apiBuilderFactory, SharedApollo_apiBuilderScope, SharedApollo_apiUpload, SharedOkioCloseable, SharedApollo_apiExecutionContextKey, SharedApollo_apiExecutionContextElement, SharedApollo_apiExecutionContext, SharedApollo_apiExecutionOptions, SharedApollo_apiMutationData, SharedApollo_apiMutation, SharedApollo_apiSubscriptionData, SharedApollo_apiSubscription, SharedApollo_runtimeApolloInterceptor, SharedApollo_runtimeNetworkTransport, SharedKotlinIterator, SharedKotlinx_coroutines_coreFlowCollector, SharedOkioBufferedSink, SharedApollo_apiMutableExecutionOptions, SharedApollo_runtimeHttpInterceptor, SharedApollo_runtimeApolloClientListener, SharedApollo_runtimeHttpEngine, SharedApollo_runtimeNetworkMonitor, SharedApollo_runtimeWebSocketEngine, SharedKotlinSuspendFunction2, SharedKotlinSuspendFunction0, SharedApollo_runtimeWsProtocolFactory, SharedApollo_runtimeApolloInterceptorChain, SharedKotlinKClass, SharedApollo_normalized_cache_apiReadOnlyNormalizedCache, SharedOkioSource, SharedOkioSink, SharedApollo_runtimeHttpInterceptorChain, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedApollo_runtimeWebSocketConnection, SharedKotlinFunction, SharedApollo_runtimeWsProtocolListener, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedOkioBufferedSource, SharedApollo_apiHttpBody, SharedKotlinMatchResult, SharedKotlinSequence, SharedKotlinMatchGroupCollection, SharedKotlinIterable, SharedKotlinCollection, SharedKotlinClosedRange, SharedKotlinOpenEndRange;
+@protocol SharedApollo_apiAdapter, SharedApollo_apiJsonWriter, SharedApollo_apiExecutable, SharedApollo_apiOperation, SharedApollo_apiQuery, SharedApollo_apiFakeResolver, SharedApollo_apiExecutableData, SharedApollo_apiOperationData, SharedApollo_apiQueryData, SharedApollo_apiJsonReader, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreJob, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinComparable, SharedApollo_apiFragmentData, SharedUserRepository, SharedApollo_apiBuilderFactory, SharedApollo_apiBuilderScope, SharedApollo_apiUpload, SharedOkioCloseable, SharedApollo_apiExecutionContextKey, SharedApollo_apiExecutionContextElement, SharedApollo_apiExecutionContext, SharedApollo_apiExecutionOptions, SharedApollo_apiMutationData, SharedApollo_apiMutation, SharedApollo_apiSubscriptionData, SharedApollo_apiSubscription, SharedApollo_runtimeApolloInterceptor, SharedApollo_runtimeNetworkTransport, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreChildHandle, SharedKotlinx_coroutines_coreChildJob, SharedKotlinx_coroutines_coreDisposableHandle, SharedKotlinSequence, SharedKotlinx_coroutines_coreSelectClause0, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedKotlinIterator, SharedOkioBufferedSink, SharedApollo_apiMutableExecutionOptions, SharedApollo_runtimeHttpInterceptor, SharedApollo_runtimeApolloClientListener, SharedApollo_runtimeHttpEngine, SharedApollo_runtimeNetworkMonitor, SharedApollo_runtimeWebSocketEngine, SharedKotlinSuspendFunction2, SharedKotlinSuspendFunction0, SharedApollo_runtimeWsProtocolFactory, SharedApollo_runtimeApolloInterceptorChain, SharedKotlinx_coroutines_coreParentJob, SharedKotlinx_coroutines_coreSelectInstance, SharedKotlinx_coroutines_coreSelectClause, SharedKotlinKClass, SharedApollo_normalized_cache_apiReadOnlyNormalizedCache, SharedOkioSource, SharedOkioSink, SharedApollo_runtimeHttpInterceptorChain, SharedKotlinContinuation, SharedKotlinContinuationInterceptor, SharedKotlinx_coroutines_coreRunnable, SharedApollo_runtimeWebSocketConnection, SharedKotlinFunction, SharedApollo_runtimeWsProtocolListener, SharedKotlinKDeclarationContainer, SharedKotlinKAnnotatedElement, SharedKotlinKClassifier, SharedOkioBufferedSource, SharedApollo_apiHttpBody, SharedKotlinMatchResult, SharedKotlinMatchGroupCollection, SharedKotlinIterable, SharedKotlinCollection, SharedKotlinClosedRange, SharedKotlinOpenEndRange;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -325,6 +325,13 @@ __attribute__((swift_name("CommonDi")))
 @property (class, readonly, getter=shared) SharedCommonDi *shared __attribute__((swift_name("shared")));
 @property (readonly) SharedApollo_runtimeApolloClient *apolloClient __attribute__((swift_name("apolloClient")));
 @property (readonly) SharedUserNetworkRepository *userNetworkRepository __attribute__((swift_name("userNetworkRepository")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNativeFlowWrapper")))
+@interface SharedKotlinNativeFlowWrapper<T> : SharedBase
+- (instancetype)initWithFlow:(id<SharedKotlinx_coroutines_coreFlow>)flow __attribute__((swift_name("init(flow:)"))) __attribute__((objc_designated_initializer));
+- (id<SharedKotlinx_coroutines_coreJob>)subscribeScope:(id<SharedKotlinx_coroutines_coreCoroutineScope>)scope onEach:(void (^)(T _Nullable))onEach onComplete:(void (^)(void))onComplete onThrow:(void (^)(SharedKotlinThrowable *))onThrow __attribute__((swift_name("subscribe(scope:onEach:onComplete:onThrow:)")));
 @end
 
 __attribute__((swift_name("Event")))
@@ -752,6 +759,12 @@ __attribute__((swift_name("Di_iosKt")))
 @end
 
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinNativeFlowWrapperKt")))
+@interface SharedKotlinNativeFlowWrapperKt : SharedBase
+@property (class, readonly) id<SharedKotlinx_coroutines_coreCoroutineScope> iosScope __attribute__((swift_name("iosScope")));
+@end
+
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("QueryKt")))
 @interface SharedQueryKt : SharedBase
 + (NSDictionary<NSString *, id> *)buildQuery:(id<SharedApollo_apiBuilderScope>)receiver block:(void (^)(SharedQueryBuilder *))block __attribute__((swift_name("buildQuery(_:block:)")));
@@ -1122,6 +1135,72 @@ __attribute__((swift_name("Apollo_runtimeApolloClient")))
 @property (readonly) id<SharedApollo_runtimeNetworkTransport> subscriptionNetworkTransport __attribute__((swift_name("subscriptionNetworkTransport")));
 @end
 
+__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
+@protocol SharedKotlinx_coroutines_coreFlow
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)collectCollector:(id<SharedKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinCoroutineContext")))
+@protocol SharedKotlinCoroutineContext
+@required
+- (id _Nullable)foldInitial:(id _Nullable)initial operation_:(id _Nullable (^)(id _Nullable, id<SharedKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation_:)")));
+- (id<SharedKotlinCoroutineContextElement> _Nullable)getKey_:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key_:)")));
+- (id<SharedKotlinCoroutineContext>)minusKeyKey_:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key_:)")));
+- (id<SharedKotlinCoroutineContext>)plusContext_:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("plus(context_:)")));
+@end
+
+__attribute__((swift_name("KotlinCoroutineContextElement")))
+@protocol SharedKotlinCoroutineContextElement <SharedKotlinCoroutineContext>
+@required
+@property (readonly) id<SharedKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol SharedKotlinx_coroutines_coreJob <SharedKotlinCoroutineContextElement>
+@required
+- (id<SharedKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<SharedKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause:(SharedKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+- (SharedKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<SharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(SharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+- (id<SharedKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(SharedKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<SharedKotlinx_coroutines_coreJob>)plusOther:(id<SharedKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<SharedKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<SharedKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+@property (readonly) id<SharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol SharedKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinEnumCompanion")))
 @interface SharedKotlinEnumCompanion : SharedBase
@@ -1173,17 +1252,6 @@ __attribute__((swift_name("KotlinCancellationException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithCause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreFlow")))
-@protocol SharedKotlinx_coroutines_coreFlow
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)collectCollector:(id<SharedKotlinx_coroutines_coreFlowCollector>)collector completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("collect(collector:completionHandler:)")));
 @end
 
 __attribute__((swift_name("Apollo_apiCompiledType")))
@@ -1676,13 +1744,6 @@ __attribute__((swift_name("Apollo_runtimeNetworkTransport")))
 - (id<SharedKotlinx_coroutines_coreFlow>)executeRequest:(SharedApollo_apiApolloRequest<id<SharedApollo_apiOperationData>> *)request __attribute__((swift_name("execute(request:)")));
 @end
 
-__attribute__((swift_name("KotlinIterator")))
-@protocol SharedKotlinIterator
-@required
-- (BOOL)hasNext __attribute__((swift_name("hasNext_()")));
-- (id _Nullable)next __attribute__((swift_name("next()")));
-@end
-
 __attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
 @protocol SharedKotlinx_coroutines_coreFlowCollector
 @required
@@ -1692,6 +1753,57 @@ __attribute__((swift_name("Kotlinx_coroutines_coreFlowCollector")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)emitValue:(id _Nullable)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("emit(value:completionHandler:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol SharedKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol SharedKotlinx_coroutines_coreChildHandle <SharedKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(SharedKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<SharedKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol SharedKotlinx_coroutines_coreChildJob <SharedKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<SharedKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol SharedKotlinSequence
+@required
+- (id<SharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause")))
+@protocol SharedKotlinx_coroutines_coreSelectClause
+@required
+@property (readonly) id clauseObject __attribute__((swift_name("clauseObject")));
+@property (readonly) SharedKotlinUnit *(^(^ _Nullable onCancellationConstructor)(id<SharedKotlinx_coroutines_coreSelectInstance>, id _Nullable, id _Nullable))(SharedKotlinThrowable *) __attribute__((swift_name("onCancellationConstructor")));
+@property (readonly) id _Nullable (^processResFunc)(id, id _Nullable, id _Nullable) __attribute__((swift_name("processResFunc")));
+@property (readonly) void (^regFunc)(id, id<SharedKotlinx_coroutines_coreSelectInstance>, id _Nullable) __attribute__((swift_name("regFunc")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol SharedKotlinx_coroutines_coreSelectClause0 <SharedKotlinx_coroutines_coreSelectClause>
+@required
+@end
+
+__attribute__((swift_name("KotlinCoroutineContextKey")))
+@protocol SharedKotlinCoroutineContextKey
+@required
+@end
+
+__attribute__((swift_name("KotlinIterator")))
+@protocol SharedKotlinIterator
+@required
+- (BOOL)hasNext __attribute__((swift_name("hasNext_()")));
+- (id _Nullable)next __attribute__((swift_name("next()")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1936,26 +2048,6 @@ __attribute__((swift_name("Apollo_runtimeApolloClientListener")))
  * @note annotations
  *   kotlin.SinceKotlin(version="1.3")
 */
-__attribute__((swift_name("KotlinCoroutineContext")))
-@protocol SharedKotlinCoroutineContext
-@required
-- (id _Nullable)foldInitial:(id _Nullable)initial operation_:(id _Nullable (^)(id _Nullable, id<SharedKotlinCoroutineContextElement>))operation __attribute__((swift_name("fold(initial:operation_:)")));
-- (id<SharedKotlinCoroutineContextElement> _Nullable)getKey_:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("get(key_:)")));
-- (id<SharedKotlinCoroutineContext>)minusKeyKey_:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("minusKey(key_:)")));
-- (id<SharedKotlinCoroutineContext>)plusContext_:(id<SharedKotlinCoroutineContext>)context __attribute__((swift_name("plus(context_:)")));
-@end
-
-__attribute__((swift_name("KotlinCoroutineContextElement")))
-@protocol SharedKotlinCoroutineContextElement <SharedKotlinCoroutineContext>
-@required
-@property (readonly) id<SharedKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
 __attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
 @interface SharedKotlinAbstractCoroutineContextElement : SharedBase <SharedKotlinCoroutineContextElement>
 - (instancetype)initWithKey:(id<SharedKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
@@ -1990,7 +2082,7 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
  *   kotlinx.coroutines.ExperimentalCoroutinesApi
 */
 - (SharedKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (SharedKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(SharedKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (SharedKotlinx_coroutines_coreCoroutineDispatcher *)plusOther_:(SharedKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
 - (void)releaseInterceptedContinuationContinuation:(id<SharedKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
@@ -2078,6 +2170,31 @@ __attribute__((swift_name("Apollo_runtimeApolloInterceptorChain")))
 @protocol SharedApollo_runtimeApolloInterceptorChain
 @required
 - (id<SharedKotlinx_coroutines_coreFlow>)proceedRequest:(SharedApollo_apiApolloRequest<id<SharedApollo_apiOperationData>> *)request __attribute__((swift_name("proceed(request:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreParentJob")))
+@protocol SharedKotlinx_coroutines_coreParentJob <SharedKotlinx_coroutines_coreJob>
+@required
+- (SharedKotlinCancellationException *)getChildJobCancellationCause __attribute__((swift_name("getChildJobCancellationCause()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface SharedKotlinUnit : SharedBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) SharedKotlinUnit *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectInstance")))
+@protocol SharedKotlinx_coroutines_coreSelectInstance
+@required
+- (void)disposeOnCompletionDisposableHandle:(id<SharedKotlinx_coroutines_coreDisposableHandle>)disposableHandle __attribute__((swift_name("disposeOnCompletion(disposableHandle:)")));
+- (void)selectInRegistrationPhaseInternalResult:(id _Nullable)internalResult __attribute__((swift_name("selectInRegistrationPhase(internalResult:)")));
+- (BOOL)trySelectClauseObject:(id)clauseObject result:(id _Nullable)result __attribute__((swift_name("trySelect(clauseObject:result:)")));
+@property (readonly) id<SharedKotlinCoroutineContext> context __attribute__((swift_name("context")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2488,11 +2605,6 @@ __attribute__((swift_name("Apollo_apiHttpResponse")))
 @property (readonly) int32_t statusCode __attribute__((swift_name("statusCode")));
 @end
 
-__attribute__((swift_name("KotlinCoroutineContextKey")))
-@protocol SharedKotlinCoroutineContextKey
-@required
-@end
-
 
 /**
  * @note annotations
@@ -2627,12 +2739,6 @@ __attribute__((swift_name("Apollo_runtimeWsProtocolListener")))
 - (void)operationCompleteId:(NSString *)id __attribute__((swift_name("operationComplete(id:)")));
 - (void)operationErrorId:(NSString *)id payload:(NSDictionary<NSString *, id> * _Nullable)payload __attribute__((swift_name("operationError(id:payload:)")));
 - (void)operationResponseId:(NSString *)id payload:(NSDictionary<NSString *, id> *)payload __attribute__((swift_name("operationResponse(id:payload:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol SharedKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<SharedKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2871,12 +2977,6 @@ __attribute__((swift_name("KotlinMatchResult")))
 @property (readonly) NSString *value __attribute__((swift_name("value")));
 @end
 
-__attribute__((swift_name("KotlinSequence")))
-@protocol SharedKotlinSequence
-@required
-- (id<SharedKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("KotlinMatchResultDestructured")))
 @interface SharedKotlinMatchResultDestructured : SharedBase
@@ -2934,7 +3034,7 @@ __attribute__((swift_name("KotlinClosedRange")))
 - (BOOL)containsValue:(id)value __attribute__((swift_name("contains(value:)")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
 @property (readonly) id endInclusive __attribute__((swift_name("endInclusive")));
-@property (readonly) id start __attribute__((swift_name("start")));
+@property (readonly, getter=start_) id start __attribute__((swift_name("start")));
 @end
 
 
@@ -2948,7 +3048,7 @@ __attribute__((swift_name("KotlinOpenEndRange")))
 - (BOOL)containsValue_:(id)value __attribute__((swift_name("contains(value_:)")));
 - (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
 @property (readonly) id endExclusive __attribute__((swift_name("endExclusive")));
-@property (readonly) id start __attribute__((swift_name("start")));
+@property (readonly, getter=start_) id start __attribute__((swift_name("start")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2969,7 +3069,7 @@ __attribute__((swift_name("KotlinIntRange")))
 */
 @property (readonly) SharedInt *endExclusive __attribute__((swift_name("endExclusive"))) __attribute__((deprecated("Can throw an exception when it's impossible to represent the value with Int type, for example, when the range includes MAX_VALUE. It's recommended to use 'endInclusive' property that doesn't throw.")));
 @property (readonly) SharedInt *endInclusive __attribute__((swift_name("endInclusive")));
-@property (readonly) SharedInt *start __attribute__((swift_name("start")));
+@property (readonly, getter=start_) SharedInt *start __attribute__((swift_name("start")));
 @end
 
 __attribute__((objc_subclassing_restricted))
